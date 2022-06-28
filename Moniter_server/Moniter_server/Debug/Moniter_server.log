@@ -1,0 +1,25 @@
+﻿  server.c
+C:\Users\dami0\source\repos\Moniter_server\Moniter_server\server.c(88,36): warning C4133: '=': 'int *'과(와) 'char *' 사이의 형식이 호환되지 않습니다.
+C:\Users\dami0\source\repos\Moniter_server\Moniter_server\server.c(133,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\dami0\source\repos\Moniter_server\Moniter_server\server.c(315,50): warning C4047: '함수': 'const char *'의 간접 참조 수준이 'char (*)[1024]'과(와) 다릅니다.
+C:\Users\dami0\source\repos\Moniter_server\Moniter_server\server.c(315,41): warning C4024: 'send': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+C:\Users\dami0\source\repos\Moniter_server\Moniter_server\server.c(100,28): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\dami0\source\repos\Moniter_server\Moniter_server\server.c(145,26): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\dami0\source\repos\Moniter_server\Moniter_server\server.c(77,9): warning C4101: 'pauseStartCntSensor' :참조되지 않은 지역 변수입니다.
+C:\Users\dami0\source\repos\Moniter_server\Moniter_server\server.c(67,33): warning C4101: 'clientAddr' :참조되지 않은 지역 변수입니다.
+C:\Users\dami0\source\repos\Moniter_server\Moniter_server\server.c(428,50): warning C4029: 선언된 정식 매개 변수 목록이 정의와 다릅니다.
+C:\Users\dami0\source\repos\Moniter_server\Moniter_server\server.c(439,28): warning C4047: '함수': 'char *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\Users\dami0\source\repos\Moniter_server\Moniter_server\server.c(439,19): warning C4024: 'printMiddleLine': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\dami0\source\repos\Moniter_server\Moniter_server\server.c(450,26): warning C4028: 정식 매개 변수 1이(가) 선언과 다릅니다.
+C:\Users\dami0\source\repos\Moniter_server\Moniter_server\server.c(518,7): warning C4101: 'sensorNum' :참조되지 않은 지역 변수입니다.
+C:\Users\dami0\source\repos\Moniter_server\Moniter_server\server.c(521,9): warning C4101: 'highLimit' :참조되지 않은 지역 변수입니다.
+C:\Users\dami0\source\repos\Moniter_server\Moniter_server\server.c(520,9): warning C4101: 'lowLimit' :참조되지 않은 지역 변수입니다.
+C:\Users\dami0\source\repos\Moniter_server\Moniter_server\server.c(517,7): warning C4101: 'clientNum' :참조되지 않은 지역 변수입니다.
+C:\Users\dami0\source\repos\Moniter_server\Moniter_server\server.c(578,23): warning C4013: 'getch'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\dami0\source\repos\Moniter_server\Moniter_server\server.c(641,10): warning C4477: 'scanf' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char *'입니다.
+C:\Users\dami0\source\repos\Moniter_server\Moniter_server\server.c(641,10): message : 서식 문자열에서 '%hhd'을(를) 사용하는 것이 좋습니다.
+C:\Users\dami0\source\repos\Moniter_server\Moniter_server\server.c(645,10): warning C4477: 'scanf' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char *'입니다.
+C:\Users\dami0\source\repos\Moniter_server\Moniter_server\server.c(645,10): message : 서식 문자열에서 '%hhd'을(를) 사용하는 것이 좋습니다.
+C:\Users\dami0\source\repos\Moniter_server\Moniter_server\server.c(693,10): warning C4477: 'scanf' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char *'입니다.
+C:\Users\dami0\source\repos\Moniter_server\Moniter_server\server.c(693,10): message : 서식 문자열에서 '%hhd'을(를) 사용하는 것이 좋습니다.
+  Moniter_server.vcxproj -> C:\Users\dami0\source\repos\Moniter_server\Debug\Moniter_server.exe
