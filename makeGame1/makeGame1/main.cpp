@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<time.h>
 #include "Console.h"
-
+#define MAX 30
 
 /*
 |----|
@@ -13,24 +13,34 @@
 rand_x = (rand()%15)   <stdlib.h>
 
 */
+typedef struct STAR{
+	int star_x = 0;
+	int star_y = 0;
+	bool StarAct = false;
+
+
+};
 int main(void) {
 	int x = 14, y = 28;
 	int bx = 0, by = 0;
 	bool bullet= false;
+	int i=0;
 
-	int star_x = 0, star_y = 0;
-	bool star = false;
+	STAR star[MAX];
 	
 	srand(time(NULL));
 	SetConsoleSize(30, 30);
 	while (1) {
 
 		Clear();
-		if (!star) {
-			star_x = (rand() % 15) * 2; //0,2,4,6...28
-			star_y = 0;
-			star = true;
+		for (i = 0; i < MAX; i++) {
+			if (!star[i].StarAct) {
+				star[i].star_x = (rand() % 15) * 2; //0,2,4,6...28
+				star[i].star_y = 0;
+				star[i].StarAct = true;
+				break;
 
+			}
 		}
 		if (GetAsyncKeyState(VK_LEFT) & 0x8000) {
 			x--;
@@ -55,12 +65,14 @@ int main(void) {
 			by--;
 			if (by < 0)bullet = false;
 		}
-		if (star) {
-			GotoXY(star_x,star_y);
-			printf("¡Ù");
-			star_y++;
-			if (star_y >y)
-				star = false;
+		for (i = 0; i < MAX; i++) {
+			if (star) {
+				GotoXY(star[i].star_x, star[i].star_y);
+				printf("¡Ù");
+				star[i].star_y++;
+				if (star[i].star_y > y)
+					star[i].StarAct = false;
+			}
 		}
 
 
